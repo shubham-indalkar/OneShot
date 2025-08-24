@@ -23,4 +23,4 @@ wget https://raw.githubusercontent.com/shubham-indalkar/OneShot/master/vulnwsc.t
 
 chmod +x ./oneshot.py
 
-printf "########################################\n# All done! Now you can run OneShot with\n#        sudo python OneShot/oneshot.py\n########################################\n"
+printf "########################################\n# All done! Now you can run OneShot with\n#        sudo python OneShot/oneshot.py -i wlan0 --iface-down -K\n########################################\n"
