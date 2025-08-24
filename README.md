@@ -1,10 +1,10 @@
 
 # Overview
-**OneShot** performs [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without having to switch to monitor mode.
+**OneShot** performs [Pixie Dust attack](https://web.archive.org/web/20250217144105/https://forums.kali.org/archived/showthread.php?24286-WPS-Pixie-Dust-Attack-(Offline-WPS-Attack)) without having to switch to monitor mode.
 # Features
- - [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack);
- - integrated [3WiFi offline WPS PIN generator](https://3wifi.stascorp.com/wpspin);
- - [online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf);
+ - [Pixie Dust attack](https://web.archive.org/web/20250217144105/https://forums.kali.org/archived/showthread.php?24286-WPS-Pixie-Dust-Attack-(Offline-WPS-Attack));
+ - Integrated [3WiFi offline WPS PIN generator](https://web.archive.org/web/20231010203832/https://3wifi.stascorp.com/wpspin);
+ - [Online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf);
  - Wi-Fi scanner with highlighting based on iw;
 # Requirements
  - Python 3.6 and above;
@@ -35,11 +35,11 @@
 **Getting OneShot**
  ```
  cd ~
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
+ wget https://raw.githubusercontent.com/kimocoder/OneShot/master/oneshot.py
  ```
 Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
  ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
+ wget https://raw.githubusercontent.com/kimocoder/OneShot/master/vulnwsc.txt
  ```
 ## Arch Linux
 **Installing requirements**
@@ -48,11 +48,11 @@ Optional: getting a list of vulnerable to pixie dust devices for highlighting in
  ```
 **Getting OneShot**
  ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
+ wget https://raw.githubusercontent.com/kimocoder/OneShot/master/oneshot.py
  ```
 Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
  ```
- wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
+ wget https://raw.githubusercontent.com/kimocoder/OneShot/master/vulnwsc.txt
  ```
 ## Alpine Linux
 It can also be used to run on Android devices using [Linux Deploy](https://play.google.com/store/apps/details?id=ru.meefik.linuxdeploy)
@@ -67,18 +67,18 @@ Adding the testing repository:
  ```
  **Getting OneShot**
  ```
- sudo wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
+ sudo wget https://raw.githubusercontent.com/kimocoder/OneShot/master/oneshot.py
  ```
 Optional: getting a list of vulnerable to pixie dust devices for highlighting in scan results:
  ```
- sudo wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
+ sudo wget https://raw.githubusercontent.com/kimocoder/OneShot/master/vulnwsc.txt
  ```
 ## [Termux](https://termux.com/)
 Please note that root access is required.  
 
 #### Using installer
  ```
- curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
+ curl -sSf https://raw.githubusercontent.com/kimocoder/OneShot_Termux_installer/master/installer.sh | bash
  ```
 #### Manually
 **Installing requirements**
@@ -88,7 +88,7 @@ Please note that root access is required.
  ```
 **Getting OneShot**
  ```
- git clone --depth 1 https://github.com/drygdryg/OneShot OneShot
+ git clone --depth 1 https://github.com/kimocoder/OneShot OneShot
  ```
 #### Running
  ```
