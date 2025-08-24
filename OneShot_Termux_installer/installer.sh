@@ -3,18 +3,18 @@ architecture=""
 case $(uname -m) in
     armv7*)   architecture="arm" ;;
     aarch64)   architecture="aarch64" ;;
-    *)   printf "The architecture of your CPU is not supported. Please build required binaries from the sources: https://github.com/drygdryg/OneShot#termux"; exit
+    *)   printf "The architecture of your CPU is not supported. Please build required binaries from the sources: https://github.com/shubham-indalkar/OneShot#termux"; exit
 esac
 pkg install -y root-repo 
 pkg install -y wget tsu python wpa-supplicant iw
 
 # keep upstream
-wget https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/binaries/$architecture/pixiewps -O $PREFIX/bin/pixiewps
+wget https://raw.githubusercontent.com/shubham-indalkar/Oneshot/master/OneShot_Termux_installer/binaries/$architecture/pixiewps -O $PREFIX/bin/pixiewps
 chmod +x $PREFIX/bin/pixiewps
 
-wget https://raw.githubusercontent.com/eda-abec/OneShot-Termux/termux/oneshot.py
+wget https://raw.githubusercontent.com/shubham-indalkar/OneShot/master/oneshot.py
 # keep upstream
-wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
+wget https://raw.githubusercontent.com/shubham-indalkar/OneShot/master/vulnwsc.txt
 
 chmod +x ./oneshot.py
 
